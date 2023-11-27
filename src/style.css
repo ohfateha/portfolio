@@ -19,6 +19,10 @@
   .work-sec {
     padding-top: 30px !important;
   }
+
+  .contact-sec {
+    padding-top: 30px !important;
+  }
 }
 
 body {
@@ -144,4 +148,18 @@ p {
   font-size: 14px;
   opacity: 70%;
   margin-bottom: 50px;
+}
+
+.contact-sec {
+  padding: 160px 20px;
+}
+
+.contact-sec h1 {
+  font-size: 64px;
+  margin-bottom: 103px;
+}
+
+.contact-sec h3,
+p {
+  text-align: center;
 }
