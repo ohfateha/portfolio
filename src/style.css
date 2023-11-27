@@ -65,7 +65,7 @@ footer {
 }
 
 .navbar {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 .hero p {
@@ -125,7 +125,7 @@ footer {
 } */
 
 .about-sec {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .about-sec h1 {
@@ -144,7 +144,7 @@ footer {
 }
 
 .work-sec {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .work-sec h1 {
@@ -172,7 +172,7 @@ footer {
 }
 
 .contact-sec {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .contact-sec h1 {
