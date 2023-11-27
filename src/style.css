@@ -236,3 +236,11 @@ footer {
 .inq-detail p {
   font-size: 18px;
 }
+
+.foot {
+    margin-top: 50px;
+}
+
+.foot a {
+    color: var(--primary-colour);
+}
