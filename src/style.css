@@ -12,8 +12,8 @@
     font-size: 44px !important;
   }
 
-    .desc {
-    padding: 0 max;
+  .desc {
+    padding: 0 !important;
   }
 }
 
@@ -92,3 +92,28 @@ p {
   background-color: #6c63ff;
   color: white;
 }
+
+/* .profile-pic {
+  width: 560px;
+  height: 560px;
+} */
+
+.about-sec {
+  padding: 200px 50px;
+}
+
+.about-sec h1 {
+  font-size: 64px;
+}
+
+.about-sec h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-sec p {
+  font-size: 16px;
+  color: #272142;
+  opacity: 70%;
+}
+
