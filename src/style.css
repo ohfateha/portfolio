@@ -2,6 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --body-font-family: "Poppins", sans-serif;
   --primary-colour: #6c63ff;
+  --secondary-colour: #f9f7fe;
 }
 
 @media (max-width: 900px) {
@@ -23,6 +24,10 @@
 
   .contact-sec {
     padding-top: 30px !important;
+  }
+
+  .inq {
+    flex-wrap: wrap;
   }
 }
 
@@ -51,6 +56,10 @@ p {
   font-size: 18px;
 }
 
+footer {
+  margin-bottom: 50px;
+}
+
 .navbar-nav .nav-link.active {
   color: var(--primary-colour);
 }
@@ -66,7 +75,7 @@ p {
 }
 
 .hero {
-  background-color: #f9f7fe;
+  background-color: var(--secondary-colour);
   padding: 160px 20px;
   text-align: center;
 }
@@ -143,8 +152,11 @@ p {
   margin-bottom: 103px;
 }
 
-.work-sec h3,
-p {
+.work-sec h3 {
+  text-align: center;
+}
+
+.work-sec p {
   text-align: center;
 }
 
@@ -168,7 +180,59 @@ p {
   margin-bottom: 103px;
 }
 
-.contact-sec h3,
-p {
+.contact-sec h3 {
   text-align: center;
+}
+
+.contact-sec p {
+  text-align: center;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+
+.email:hover {
+  cursor: pointer;
+  color: var(--primary-colour);
+}
+
+.icon {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icon a {
+  padding: 20px;
+  background-color: var(--secondary-colour);
+  border-radius: 100%;
+  margin: 0 20px;
+  color: var(--primary-colour);
+}
+
+.icon a:hover {
+  color: white;
+  background-color: var(--primary-colour);
+  transition: all 100ms ease-in-out;
+}
+
+.inq {
+  background-color: var(--secondary-colour);
+  padding: 50px;
+  border-radius: 20px;
+  margin: 0 40px;
+}
+
+.inq-detail {
+  text-align: justify;
+}
+
+.inq-detail h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.inq-detail p {
+  font-size: 18px;
 }
