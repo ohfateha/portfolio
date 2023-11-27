@@ -15,6 +15,10 @@
   .desc {
     padding: 0 !important;
   }
+
+  .work-sec {
+    padding-top: 30px !important;
+  }
 }
 
 body {
@@ -99,7 +103,7 @@ p {
 } */
 
 .about-sec {
-  padding: 200px 50px;
+  padding: 160px 20px;
 }
 
 .about-sec h1 {
@@ -113,7 +117,31 @@ p {
 
 .about-sec p {
   font-size: 16px;
-  color: #272142;
   opacity: 70%;
+  text-align: justify;
 }
 
+.work-sec {
+  padding: 160px 20px;
+}
+
+.work-sec h1 {
+  font-size: 64px;
+  margin-bottom: 103px;
+}
+
+.work-sec h3,
+p {
+  text-align: center;
+}
+
+.work-sec h3 {
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.work-sec p {
+  font-size: 14px;
+  opacity: 70%;
+  margin-bottom: 50px;
+}
